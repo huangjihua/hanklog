@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # 如何学习前端
 
 ## 什么是前端开发人员？
@@ -63,7 +59,8 @@ webview开发最常见的解决方案是：
 
 >Atwood's Law: any application that can be written in JavaScript, will eventually be written in JavaScript.
 
-- 翻译过来就是 “Atwood定律：凡是能用JavaScript写出来的，最终都会用JavaScript写出来。”
+翻译过来就是 “Atwood定律：凡是能用JavaScript写出来的，最终都会用JavaScript写出来。”
+
 - 浏览器客户端javascript
 - 服务端javascript. Node
 - 移动端应用. React Native, PhoneGap|Cordova, Flutter
@@ -76,23 +73,39 @@ webview开发最常见的解决方案是：
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 一步步学习
 - [MDN技术文档](https://developer.mozilla.org/zh-CN/docs/Web)
  
-## 推荐书籍
+## 推荐书籍&工具
 
 ### HTML&CSS
 - [CSS揭秘](https://book.douban.com/subject/26745943/)
-- [精通CSS](https://book.douban.com/subject/4736167/)
+- [精通CSS](https://book.douban.com/subject/4736167/) :laughing:
 ### Javascript  
+
+- [精通JavaScript](https://book.douban.com/subject/3007076/) :laughing:
+- [Javascript高级程序设计](https://book.douban.com/subject/10546125/)
+- [你不知道的Javascript](https://read.douban.com/ebook/12051836/)(初、中、高)
+- [Javascript忍者秘籍](https://book.douban.com/subject/30143702/)
+- [JavaScript语言精粹](https://book.douban.com/subject/3590768/)
+- [Javascript DOM编程艺术](https://book.douban.com/subject/6038371/) 实践
+
+- [JavaScript设计模式](https://book.douban.com/subject/3329540/) :laughing:
+- [JavaScript模式](https://book.douban.com/subject/11506062/)
+- [JavaScript设计模式与开发实践](https://book.douban.com/subject/26382780/)
 
 ### HTTP
 - [图解HTTP](https://book.douban.com/subject/25863515/)
 - [HTTP权威指南](https://book.douban.com/subject/10746113/)
+
+### 浏览器
+
+- [开发者中心](https://developers.google.com/web/?hl=zh-cn)
+- [speed tools](https://developers.google.com/speed/?hl=zh-CN)
 
 ## 学习路线
 - [Handbook](https://frontendmasters.com/books/front-end-handbook/2017/)
 
 ## 参考文献与标准
 
-想知道具体标准，可以参考 W3 联盟组织的文献
+想知道具体标准，可以参考以下文献
 
 -[spec](https://html.spec.whatwg.org/multipage/dom.html#kinds-of-content)
 -[w3](http://www.w3.org/TR/html/dom.html#kinds-of-content)

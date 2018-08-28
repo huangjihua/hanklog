@@ -38,7 +38,7 @@ module.exports = {
     themeConfig: {
         repo: 'https://github.com/huangjihua/hankLog.git',
         repoLabel:'源码',
-        editLinks: true,
+        editLinks: false,
         docsDir: 'docs',
         sidebarDepth:2,
         search:true,
@@ -91,7 +91,7 @@ module.exports = {
                              
                     //         ]
                     // },
-                    // '/basics/': genSidebarConfig('基础知识'),
+                    '/basics/': genSidebarConfig('基础知识'),
                     // '/frame/':[
                     //     {
                     //     title:'框架',
@@ -113,7 +113,7 @@ function genSidebarConfig (title) {
             title,
             collapsable: false,
             children: [
-                
+              "web缓存策略"
             ]
         }
     ]
