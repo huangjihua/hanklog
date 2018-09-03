@@ -4,7 +4,7 @@ module.exports = {
     title:'Study log',
     // base: '/',
     // base:'',
-    description: '学习随笔', //描述
+    description: '学习随笔', //描述 
     dest: 'dist/',
     port:8080,
     markdown: {
@@ -84,14 +84,13 @@ module.exports = {
                    
                 ],
                 sidebar: {
-                    // '/efficiency/': {
-                    //     title:'高效',
-                    //     collapsable: false,
-                    //     children: [
-                             
-                    //         ]
-                    // },
-                    '/basics/': genSidebarConfig('基础知识'),
+                    '/efficiency/': genSidebarConfig('高效',[
+                        '你不知道的构建工具'
+                    ]),
+                    '/basics/': genSidebarConfig('基础知识',[
+                        "如何学习前端",
+                        "web缓存策略"
+                      ]),
                     // '/frame/':[
                     //     {
                     //     title:'框架',
@@ -107,14 +106,12 @@ module.exports = {
     }
 };
 
-function genSidebarConfig (title) {
+function genSidebarConfig (title,children) {
     return [
         {
             title,
-            collapsable: false,
-            children: [
-              "web缓存策略"
-            ]
+            collapsable: true,
+            children: children
         }
     ]
 }
