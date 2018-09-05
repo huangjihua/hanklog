@@ -89,7 +89,8 @@ module.exports = {
                     ]),
                     '/basics/': genSidebarConfig('基础知识',[
                         "如何学习前端",
-                        "web缓存策略"
+                        "web缓存策略",
+                        "EventLoop"
                       ]),
                     // '/frame/':[
                     //     {
