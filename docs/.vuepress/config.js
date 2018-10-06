@@ -23,7 +23,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: `./logo.png` }],
     ['link', { rel: 'manifest', href: './manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    [('meta', { name: 'theme-color', content: '#3eaf7c' })],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     [
       'meta',
@@ -191,7 +191,10 @@ module.exports = {
           }
         ],
         sidebar: {
-          '/javascript/basics/': genSidebarConfig('基础篇', ['作用域问题']),
+          '/javascript/basics/': genSidebarConfig('基础篇', [
+            '作用域问题',
+            'JS原始类型有那些'
+          ]),
           '/javascript/es5/': genSidebarConfig('javascript', ['引用数据类型']),
           '/javascript/es6/': genSidebarConfig('javascript', [
             //#endregion
