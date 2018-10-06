@@ -13,15 +13,15 @@ echo 'huangjihua.com.cn' > CNAME
 #回退上一级目录
 cd ..
 
-git init
-git add -A
-git commit -m 'deploy'
+# git init
+# git add -A
+# git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:<huangjihua>/<REPO>.git master:gh-pages
+# git push -f git@github.com:<huangjihua>/<REPO>.git master:gh-pages
 
 
 # git subtree push --prefix=dist origin gh-pages
