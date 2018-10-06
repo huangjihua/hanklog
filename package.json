@@ -6,7 +6,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "cname": "echo 'huangjihua.com.cn' > CNAME"
   },
   "devDependencies": {
     "vuepress": "^0.14.2"

@@ -22,7 +22,7 @@
     执行setImmediate操作
 - 7. Close callbacks
     关闭I/O 的动作，比如文件描述符的关闭，链接断开，等等
-    ![Event loop执行顺序](/images/eventloop-1.jpg)
+    ![Event loop执行顺序](/hanklog/images/eventloop-1.jpg)
 
 除了task还有一个`microtask`（微任务），这一个概念是ES6提出`Promise`以后出现的。这个`microtask queue`只有一个。并且会在且一定会在每一个task后执行，且执行是按顺序的。加入到`microtask`的事件类型有`Promise.resolve().then()`, `process.nextTick()` 值得注意的是，event loop一定会在执行完`microtask`以后才会寻找新的可执行的task队列。而`microtask`事件内部又可以产生新的`microtask`事件比如
 
