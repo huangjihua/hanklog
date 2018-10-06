@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/hankLog.iml" filepath="$PROJECT_DIR$/.idea/hankLog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hanklog.iml" filepath="$PROJECT_DIR$/.idea/hanklog.iml" />
     </modules>
   </component>
 </project>
