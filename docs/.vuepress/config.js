@@ -101,7 +101,8 @@ module.exports = {
                 }
             }
         }
-    }
+    },
+    // baseUrl: process.env.NODE_ENV === 'production' ?'/dist/' :'/'
 };
 
 function genSidebarConfig (title,children) {
