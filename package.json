@@ -5,12 +5,15 @@
   "description": "hank学习日志 ",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "vuepress": "^0.14.2"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "hanklog": "./",
     "highlight.js": "^9.12.0",
     "markdown-it-checkbox": "^1.1.0",
     "vue-highlight.js": "^2.2.0",

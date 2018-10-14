@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: ../hero.png
 actionText: 快速上手 →
 actionLink: /guide/
 features:
@@ -20,7 +20,7 @@ footer: MIT Licensed | Copyright © 2018-present vuepress
 yarn global add vuepress # 或者：npm install -g vuepress
 
 # 新建一个 markdown 文件
-echo '# Hello VuePress!' > README.md
+echo '# Hello Hank!' > README.md
 
 # 开始写作
 vuepress dev .
