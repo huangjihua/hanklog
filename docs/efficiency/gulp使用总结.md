@@ -50,6 +50,7 @@
 - [gulp-plumber](https://www.npmjs.com/package/gulp-plumber)防止因`gulp`插件错误而导致的管道破裂,这个补丁插件正在修复节点流管道的问题; 假如发生错误进程就挂了，不过这有点坑
 - [gulp-flatten](https://www.npmjs.com/package/gulp-flatten)移动制定文件，有些时候不想对某些文件处理，就直接移动到制定文件夹
 - [gulp-css-wrap](https://www.npmjs.com/package/gulp-css-wrap) 批量给CSS增加命名空间
+- [gulp-changed](https://www.npmjs.com/package/gulp-changed)对比是否更改源文件，编译的时候只编译更改过的文件
 - [postcss](https://www.npmjs.com/package/postcss) 它可以被理解为一个平台，可以让一些插件在上面跑，它提供了一个解析器，可以将CSS解析成抽象语法树，通过PostCSS这个平台，我们能够开发一些插件，来处理CSS。热门插件`autoprefixer`
 - [postcss-px2rem](https://www.npmjs.com/package/postcss-px2rem)  px自动转rem基于flexble布局
 ## 谈谈gulpfile.js

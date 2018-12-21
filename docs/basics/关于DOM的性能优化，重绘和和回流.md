@@ -1,4 +1,4 @@
-#关于DOM性能的优化
+# 关于DOM性能的优化
 
 
 ## 重绘与回流的关系？
@@ -8,7 +8,7 @@
 
 > 回流一定会导致重绘，重绘不一定会回流。 
 
-![what-is-front-end-dev](/images/reflux-redrawing.png) 
+
 
 回流触发的几种情况： 
 1. dom结构变化，增减node节点等 
