@@ -21,8 +21,8 @@ git commit -m 'deploy'
 #git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-#git push -f git@github.com:huangjihua.io.git master:gh-pages
+git push -f git@github.com:huangjihua.git master:gh-pages
 
 
-git subtree push --prefix=dist origin gh-pages
+# git subtree push --prefix=dist origin gh-pages
 cd -
