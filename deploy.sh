@@ -24,5 +24,5 @@ git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 git push -f git@github.com:<huangjihua>/<REPO>.git master:gh-pages
 
 
-git subtree push --prefix=dist origin gh-pages
+#git subtree push --prefix=dist origin gh-pages
 cd -
