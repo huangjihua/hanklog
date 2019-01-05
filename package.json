@@ -13,11 +13,16 @@
     "vuepress": "^0.14.2"
   },
   "dependencies": {
+    "@types/gh-pages": "^2.0.0",
+    "@types/markdown-it-container": "^2.0.2",
+    "all": "^0.0.0",
+    "db": "^1.1.1",
     "gh-pages": "^2.0.1",
     "gulp": "^3.9.1",
     "hanklog": "./",
     "highlight.js": "^9.12.0",
     "markdown-it-checkbox": "^1.1.0",
+    "markdown-it-container": "^2.0.0",
     "vue-highlight.js": "^2.2.0",
     "vuepress-theme-vue": "^1.1.0"
   }
