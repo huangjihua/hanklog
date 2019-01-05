@@ -1,7 +1,7 @@
 {
   "name": "hanklog",
   "title": "学习日志",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hank学习日志 ",
   "scripts": {
     "docs:dev": "vuepress dev docs",
