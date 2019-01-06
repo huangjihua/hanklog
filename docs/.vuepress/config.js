@@ -29,7 +29,7 @@ module.exports = {
         ['link', { rel: 'apple-touch-icon', href: `./icons/apple-touch-icon-152x152.png` }],
         ['link', { rel: 'mask-icon', href: './icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
         ['meta', { name: 'msapplication-TileImage', content: './icons/msapplication-icon-144x144.png' }],
-        ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
     ],
     serviceWorker: true,
     themeConfig: {
@@ -59,6 +59,32 @@ module.exports = {
                         link:'/'
                     },
                     {
+                        text: 'javascript',
+                        items: [
+                            {
+                                text: 'basics',
+                                link: '/javascript/basics/'
+                            },
+                            {
+                                text: 'ES5',
+                                link: '/javascript/es5/'
+                            },
+                            {
+                                text: 'ES6',
+                                link: '/javascript/es6/'
+                            },
+                            {
+                                text: 'ES7',
+                                link: '/javascript/es7/'
+                            },
+                            {
+                                text: 'ES8',
+                                link: '/javascript/es8/'
+                            }
+                        ],
+                        
+                    },
+                    {
                         text:'高效',
                         link: '/efficiency/'
                     },
@@ -66,14 +92,14 @@ module.exports = {
                         text: '基础',
                         link: '/basics/'
                     },
-                    {
-                        text: '框架',
-                        link: '/frame/',
-                    },
-                    {
-                        text:'题库',
-                        link:'/question/'
-                    },
+                    // {
+                    //     text: '框架',
+                    //     link: '/frame/',
+                    // },
+                    // {
+                    //     text:'题库',
+                    //     link:'/question/'
+                    // },
                     {
                         text: 'Blog',
                         link: 'http://huangjihua.com.cn'
@@ -81,6 +107,21 @@ module.exports = {
                    
                 ],
                 sidebar: {
+                    '/javascript/basics/': genSidebarConfig('基础篇', [
+                        "作用域问题"
+                    ]),
+                    '/javascript/es5/': genSidebarConfig('javascript', [
+                       "引用数据类型"
+                    ]),
+                    '/javascript/es6/': genSidebarConfig('javascript', [
+                         //#endregion
+                    ]),
+                    '/javascript/es7/': genSidebarConfig('javascript', [
+                         //#endregion
+                    ]),
+                    '/javascript/es8/': genSidebarConfig('javascript', [
+                        //#endregion
+                    ]),
                     '/efficiency/': genSidebarConfig('高效',[
                         '你不知道的构建工具'
                     ]),
@@ -90,6 +131,7 @@ module.exports = {
                         "EventLoop",
                         "重绘和和回流"
                       ]),
+                      
                     // '/frame/':[
                     //     {
                     //     title:'框架',
