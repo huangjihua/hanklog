@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@types/gh-pages": "^2.0.0",
+    "@types/gulp": "^4.0.5",
     "@types/markdown-it-container": "^2.0.2",
     "all": "^0.0.0",
     "db": "^1.1.1",
