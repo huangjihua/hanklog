@@ -138,10 +138,6 @@ module.exports = {
                 link: '/css/new-attributes'
               },
               {
-                text: 'CSS定位方式',
-                link: '/css/position-mode'
-              },
-              {
                 text: '常用meta',
                 link: '/css/meta'
               },
@@ -194,7 +190,8 @@ module.exports = {
           '/javascript/basics/': genSidebarConfig('基础篇', [
             '作用域问题',
             'JS原始类型有那些',
-            '原型和原型链'
+            '原型和原型链',
+            '改变this那些事'
           ]),
           '/javascript/es5/': genSidebarConfig('javascript', ['引用数据类型']),
           '/javascript/es6/': genSidebarConfig('javascript', [
